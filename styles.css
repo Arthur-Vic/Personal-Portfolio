@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #040D12;
+    color: hsl(173, 100%, 97%);
+}
+
+nav{
+    height: 9vh;
+}
+
+.my-photo{
+    border-radius: 30%;
+    float: right;
+}
+
+.greeting-div{
+    align-self: center;
+    text-align: start;
+}
+
+.my-name{
+    font-size: 3rem;
+}
+
+.greeting-text{
+    font-size: 1.2rem;
+}
+
+.landing-page{
+    min-height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-outter{
+    background-color: rgb(29, 29, 29);
+}
+
+.project-section{
+    min-height: 105vh;
+    background-color: rgb(136, 136, 136);
+}
+
+.cards-row{
+    /* min-height: 20vh; */
+    display: flex;
+    justify-content: center;
+}
+
+.titles{
+    padding-top: 5vh;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.project-card img{
+    /* max-height: 170px; */
+    /* height: 25vh;
+    width: 25vh; */
+}
+
+.project-card{
+    margin: 5vh 0%;
+}
+
+.proj-rain{
+    /* width: 50%; */
+}
+
+.about-text{
+    font-size: 1rem;
+    margin: 0px 20%;
+}
