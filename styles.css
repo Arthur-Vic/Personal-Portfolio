@@ -38,12 +38,12 @@ nav{
 }
 
 .project-outter{
-    background-color: rgb(29, 29, 29);
+    /* background-color: rgb(29, 29, 29); */
 }
 
 .project-section{
     min-height: 105vh;
-    background-color: rgb(136, 136, 136);
+    /* background-color: rgb(136, 136, 136); */
 }
 
 .cards-row{
@@ -59,21 +59,18 @@ nav{
     justify-content: center;
 }
 
-.project-card img{
-    /* max-height: 170px; */
-    /* height: 25vh;
-    width: 25vh; */
-}
-
-.project-card{
-    margin: 5vh 0%;
-}
-
-.proj-rain{
-    /* width: 50%; */
-}
-
 .about-text{
     font-size: 1rem;
     margin: 0px 20%;
+}
+
+.proj{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 2%;
+}
+
+.card-image{
+    padding: 2%;
 }
