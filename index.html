@@ -20,6 +20,9 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
@@ -41,18 +44,19 @@
                 </div>
             </div>
         </nav>
-
+<h1 style="padding-top: 5vh; display:flex; justify-content:center;">THIS PAGE IS STILL UNDER CONSTRUCTION</h1>
         <div class="container landing-page">
+
             <div class="row landing-page-row">
                 <div class="col-md-6 greeting-div order-md-2">
                     <p class="greeting-text">Hello there, I'm</p>
                     <h2 class="my-name">Arthur Victor</h2>
                     <p class="greeting-text">Full-Stack Developer</p>
-                    <a class="btn linkedin-link" href="https://www.linkedin.com/in/arthur-victor-b82775173/" target="_blank">
-                        <img src="linkedin-icon.svg" alt="LinkedIn Button" width="50">
+                    <a class="btn btn-custom social-icons linkedin-link" href="https://www.linkedin.com/in/arthur-victor-b82775173/" target="_blank">
+                        <img src="linkedin-icon.svg" alt="LinkedIn Button" width="100%">
                     </a>
-                    <a class="btn github-link" href="https://github.com/Arthur-Vic" target="_blank">
-                        <img src="github-icon.svg" alt="GitHub Button" width="60">
+                    <a class="btn btn-custom social-icons github-link" href="https://github.com/Arthur-Vic" target="_blank">
+                        <img src="github-icon.svg" alt="GitHub Button" width="100%">
                     </a>
                 </div>
                 <div class="col-md-6 my-photo-div order-md-1">
@@ -61,40 +65,97 @@
             </div>
         </div>
 
-        <hr>
+        <div class="container-fluid second-section">
+            <div class="container skills-section">
+                <h2 class="skills-title titles">Skills</h2>
 
-        <div class="container-fluid project-outter">
-            <div class="container project-section" data-bs-theme="dark">
+                <div class="row cards-row skills-cards">
+
+                    <div class="col-md-6 skills skill1">
+                        <div class="skill1-content pt-4 skill-content">
+                            <h3 class="skills-title">Frontend Development</h3>
+                            <div class="container frontend-skills skill-grid">
+                                <div class="html-skill skill-listed">
+                                    <img class="skill-icon" src="icons8-html.svg" width="40px">
+                                    <div class="html skill-item">HTML5</div>
+                                </div>
+                                <div class="javascript-skill skill-listed">
+                                    <img class="skill-icon" src="icons8-javascript.svg" width="35px">
+                                    <div class="javascript skill-item">JavaScript</div>
+                                </div>
+                                <div class="css-skill skill-listed">
+                                    <img class="skill-icon" src="icons8-css.svg" width="45px">
+                                    <div class="css skill-item">CSS3</div>
+                                </div>
+                                <div class="bootstrap-skill skill-listed">
+                                    <img class="skill-icon" src="icons8-bootstrap.svg" width="40px">
+                                    <div class="bootstrap skill-item">Bootstrap</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-6 skills skill1">
+                        <div class="skill1-content pt-4 skill-content">
+                            <h3 class="skills-title">Backend Development</h3>
+                            <div class="container backend-skills skill-grid">
+                                <div class="python-skill skill-listed">
+                                    <img class="skill-icon" src="icons8-python.svg" width="40px">
+                                    <div class="python skill-item">Python</div>
+                                </div>
+                                <div class="node-skill skill-listed">
+                                    <img class="skill-icon" src="icons8-node-js.svg" width="40px">
+                                    <div class="node skill-item">Node.js</div>
+                                </div>
+                                <div class="flask-skill skill-listed">
+                                    <img class="skill-icon" src="icons8-flask.svg" width="100px">
+                                    <!-- <div class="flask skill-item">Flask</div> -->
+                                </div>
+                                <div class="python-skill skill-listed">
+                                    <img class="skill-icon" src="sql-database-generic-svg.svg" width="40px">
+                                    <div class="python skill-item">SQL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid third-section">
+            <div class="container project-section">
                 <h2 class="projects-title titles">Personal Projects</h2>
 
                 <div class="row cards-row">
 
-                    <div class="col proj project1">
-                        <div class="card" style="width: 25rem;">
+                    <div class="col-md-6 col-xl-4 proj project1">
+                        <div class="card project-card">
                             <img src="suicide-screenshot.png" class="card-img-top card-image" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Data Analysis on Suicide Trends</h5>
-                                <a href="#" class="btn btn-secondary">GitHub</a>
+                                <a href="#" class="btn btn-secondary repo-button">GitHub</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col proj project2">
-                        <div class="card" style="width: 25rem;">
+                    <div class="col-md-6 col-xl-4 proj project2">
+                        <div class="card project-card">
                             <img src="passwordmanager.png" class="card-img-top card-image" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Password Manager</h5>
-                                <a href="#" class="btn btn-secondary">GitHub</a>
+                                <a href="#" class="btn btn-secondary repo-button">GitHub</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col proj project3">
-                        <div class="card" style="width: 35rem;">
+                    <div class="col col-xl-4 proj project3">
+                        <div class="card project-card">
                             <img src="notification.jpeg" class="card-img-top card-image" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Rain Notifier</h5>
-                                <a href="#" class="btn btn-secondary">GitHub</a>
+                                <a href="#" class="btn btn-secondary repo-button">GitHub</a>
                             </div>
                         </div>
                     </div>

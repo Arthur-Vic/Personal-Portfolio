@@ -1,11 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap');
 
 
 body{
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #040D12;
-    color: hsl(173, 100%, 97%);
+    /* background-color: #040D12; */
+    background-color: #eef9ff;
+    /* color: hsl(173, 100%, 97%); */
+    color: #040D12;
 }
 
 nav{
@@ -22,6 +26,18 @@ nav{
     text-align: start;
 }
 
+.social-icons{
+    background-color: #040D12;
+    border-radius: 30%;
+    width: 70px;
+}
+
+.social-icons:hover {
+    background-color: #658eff; /* Change the background color on hover */
+    color: #FFFFFF; /* Change the text color on hover */
+    border-color: #ff583300; /* Change the border color on hover */
+}
+
 .my-name{
     font-size: 3rem;
 }
@@ -31,19 +47,78 @@ nav{
 }
 
 .landing-page{
-    min-height: 91vh;
+    min-height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.project-outter{
-    /* background-color: rgb(29, 29, 29); */
+.second-section{
+    background-color: #b1c6ff;
+}
+
+.skills-section{
+    min-height: 105vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-cards{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    /* background-color: #658eff; */
+}
+
+.skill-grid{
+    display: grid;
+    grid-template: auto auto / auto auto;
+    gap: 2%
+}
+
+.skill-listed{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-item{
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+
+.skill-icon{
+    fill: #ffffff;
+}
+
+.skills-title{
+    display: flex;
+    justify-content: center;
+    flex-basis: 20%;
+}
+
+.skill-content{
+    border: 4px solid #000000;
+    border-radius: 50px;
+    padding: 10px;
+    background-color:#eef9ff;
+    color: #040D12;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
 }
 
 .project-section{
     min-height: 105vh;
     /* background-color: rgb(136, 136, 136); */
+}
+
+.project-card{
+    background-color: #b1c6ff;
 }
 
 .cards-row{
@@ -53,7 +128,8 @@ nav{
 }
 
 .titles{
-    padding-top: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
     font-size: 3rem;
     display: flex;
     justify-content: center;
@@ -66,11 +142,32 @@ nav{
 
 .proj{
     display: flex;
-    justify-content: center;
-    align-self: center;
+    /* justify-content: center; */
+    /* align-self: center; */
     padding: 2%;
+}
+
+.projects-title{
+    /* color: #040D12; */
 }
 
 .card-image{
     padding: 2%;
+    border-radius: 5%;
+    padding-bottom: 20%;
+}
+
+.repo-button{
+    position: absolute;
+    bottom: 5%;
+}
+
+.card-title{
+    position: absolute;
+    bottom: 15%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
 }
