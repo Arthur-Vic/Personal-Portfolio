@@ -1,173 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap');
-
-
-body{
-    font-family: 'Josefin Sans', sans-serif;
-    /* background-color: #040D12; */
-    background-color: #eef9ff;
-    /* color: hsl(173, 100%, 97%); */
-    color: #040D12;
+body {
+  font-family: "Josefin Sans", sans-serif;
+  /* background-color: #040D12; */
+  background-color: #eef9ff;
+  /* color: hsl(173, 100%, 97%); */
+  color: #040d12;
 }
 
-nav{
-    height: 9vh;
+nav {
+  height: 9vh;
 }
 
-.my-photo{
-    border-radius: 30%;
-    float: right;
+.my-photo {
+  border-radius: 30%;
+  float: right;
+  box-shadow: 0px 0px 15px rgba(101, 142, 255, 0.5);
 }
 
-.greeting-div{
-    align-self: center;
-    text-align: start;
+.greeting-div {
+  align-self: center;
+  text-align: start;
 }
 
-.social-icons{
-    background-color: #040D12;
-    border-radius: 30%;
-    width: 70px;
+.social-icons {
+  background-color: #040d12;
+  border-radius: 30%;
+  width: 70px;
 }
 
 .social-icons:hover {
-    background-color: #658eff; /* Change the background color on hover */
-    color: #FFFFFF; /* Change the text color on hover */
-    border-color: #ff583300; /* Change the border color on hover */
+  background-color: #658eff; /* Change the background color on hover */
+  color: #ffffff; /* Change the text color on hover */
+  border-color: #ff583300; /* Change the border color on hover */
 }
 
-.my-name{
-    font-size: 3rem;
+.my-name {
+  font-size: 3rem;
 }
 
-.greeting-text{
-    font-size: 1.2rem;
+.greeting-text {
+  font-size: 1.2rem;
 }
 
-.landing-page{
-    min-height: 85vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.landing-page {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.second-section{
-    background-color: #b1c6ff;
+.second-section {
+  background-color: #b1c6ff;
 }
 
-.skills-section{
-    min-height: 105vh;
-    display: flex;
-    flex-direction: column;
+.skills-section {
+  min-height: 105vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.skills-cards{
-    display: flex;
-    align-items: center;
-    height: 70vh;
-    /* background-color: #658eff; */
+/* .skills-cards {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background-color: #658eff;
+} */
+/* 
+.skill-grid {
+  display: grid;
+  grid-template: auto auto / auto auto;
+  gap: 2%;
+} */
+
+/* .skill-listed {
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.skill-item {
+  padding-left: 10px;
+  font-size: 1.5rem;
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
 }
 
-.skill-grid{
-    display: grid;
-    grid-template: auto auto / auto auto;
-    gap: 2%
+/* .skills-title {
+  display: flex;
+  justify-content: center;
+  flex-basis: 20%;
+} */
+/* 
+.skill-content {
+  border: 4px solid #000000;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #eef9ff;
+  color: #040d12;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+} */
+
+.project-section {
+  min-height: 105vh;
+  /* background-color: rgb(136, 136, 136); */
 }
 
-.skill-listed{
-    padding: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.project-card {
+  background-color: #b1c6ff;
 }
 
-.skill-item{
-    padding-left: 10px;
-    font-size: 1.5rem;
-    font-family: 'EB Garamond', serif;
-    font-weight: 600;
+.cards-row {
+  /* min-height: 20vh; */
+  display: flex;
+  justify-content: center;
 }
 
-.skill-icon{
-    fill: #ffffff;
+.titles {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
-.skills-title{
-    display: flex;
-    justify-content: center;
-    flex-basis: 20%;
+.about-text {
+  font-size: 1rem;
+  margin: 0px 20%;
 }
 
-.skill-content{
-    border: 4px solid #000000;
-    border-radius: 50px;
-    padding: 10px;
-    background-color:#eef9ff;
-    color: #040D12;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
+.proj {
+  display: flex;
+  /* justify-content: center; */
+  /* align-self: center; */
+  padding: 2%;
 }
 
-.project-section{
-    min-height: 105vh;
-    /* background-color: rgb(136, 136, 136); */
+.projects-title {
+  /* color: #040D12; */
 }
 
-.project-card{
-    background-color: #b1c6ff;
+.card-image {
+  padding: 2%;
+  border-radius: 5%;
+  padding-bottom: 20%;
 }
 
-.cards-row{
-    /* min-height: 20vh; */
-    display: flex;
-    justify-content: center;
+.repo-button {
+  position: absolute;
+  bottom: 5%;
 }
 
-.titles{
-    padding-top: 10vh;
-    padding-bottom: 5vh;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
+.card-title {
+  position: absolute;
+  bottom: 15%;
 }
 
-.about-text{
-    font-size: 1rem;
-    margin: 0px 20%;
+.card {
+  display: flex;
+  flex-direction: column;
 }
 
-.proj{
-    display: flex;
-    /* justify-content: center; */
-    /* align-self: center; */
-    padding: 2%;
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid 3px; */
+  /* background-color: #eef9ff; */
+  /* border-radius: 10%; */
+  /* min-width: 120px; */
 }
 
-.projects-title{
-    /* color: #040D12; */
+.skills {
+  height: 70vh;
+  /* background-color: red; */
 }
 
-.card-image{
-    padding: 2%;
-    border-radius: 5%;
-    padding-bottom: 20%;
+.skills-row {
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.repo-button{
-    position: absolute;
-    bottom: 5%;
+.skill-icon {
+  margin-top: 5px;
 }
 
-.card-title{
-    position: absolute;
-    bottom: 15%;
-}
-
-.card{
-    display: flex;
-    flex-direction: column;
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 150px;
+  border: solid 4px #000000;
+  background-color: #eef9ff;
+  border-radius: 10%;
 }
